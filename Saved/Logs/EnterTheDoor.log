@@ -1,0 +1,932 @@
+﻿Log file open, 12/30/16 20:41:56
+LogInit:Display: Running engine for game: EnterTheDoor
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1727749524) SRandInit(-1727749524).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074264
+LogPluginManager: Loaded Plugin Paper2D, From D:/Unreal/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Unreal/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Unreal/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Unreal/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3224400
+LogInit: Engine Version: 4.14.1-3224400+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Dec  7 2016 02:14:32
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Unreal/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.30-19.41.56:655][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.30-19.41.56:655][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.30-19.41.56:665][  0]LogInit: Computer: NSLBRO
+[2016.12.30-19.41.56:665][  0]LogInit: User: NslBr
+[2016.12.30-19.41.56:665][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.30-19.41.56:665][  0]LogInit: High frequency timer resolution =3.328122 MHz
+[2016.12.30-19.41.56:665][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.12.30-19.41.56:665][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.30-19.41.56:665][  0]LogMemory: Process Physical Memory: 264.48 MB used, 264.48 MB peak
+[2016.12.30-19.41.56:665][  0]LogMemory: Process Virtual Memory: 262.86 MB used, 262.86 MB peak
+[2016.12.30-19.41.56:665][  0]LogMemory: Physical Memory: 6835.02 MB used,  1286.13 MB free, 8121.15 MB total
+[2016.12.30-19.41.56:665][  0]LogMemory: Virtual Memory: 676.27 MB used,  1286.13 MB free, 134217728.00 MB total
+[2016.12.30-19.41.56:696][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2016.12.30-19.41.57:426][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.30-19.41.57:468][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2016.12.30-19.41.57:468][  0]LogD3D11RHI:       4060/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.12.30-19.41.57:470][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.30-19.41.57:470][  0]LogD3D11RHI:       0/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.30-19.41.57:470][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.30-19.41.57:484][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.30-19.41.57:484][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.30-19.41.57:484][  0]LogWindows: EnumDisplayDevices:
+[2016.12.30-19.41.57:485][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2016.12.30-19.41.57:485][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.12.30-19.41.57:485][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.12.30-19.41.57:485][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.12.30-19.41.57:485][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.12.30-19.41.57:485][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2016.12.30-19.41.57:485][  0]LogD3D11RHI:   Driver Version: 375.63 (internal:21.21.13.7563, unified:375.63)
+[2016.12.30-19.41.57:485][  0]LogD3D11RHI:      Driver Date: 10-21-2016
+[2016.12.30-19.41.57:485][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.30-19.41.57:499][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.30-19.41.57:509][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.12.30-19.41.57:510][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Intermediate/Shaders/WorkingDirectory/67496/).
+[2016.12.30-19.41.57:510][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NslBr/AppData/Local/Temp/UnrealShaderWorkingDir/6B6801BF4F8E5A26EC2CE69EC38EC9E9/'.
+[2016.12.30-19.41.57:510][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.30-19.41.58:593][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.30-19.41.58:640][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2016.12.30-19.41.58:686][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2016.12.30-19.41.58:735][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2016.12.30-19.41.58:783][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2016.12.30-19.41.58:830][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.30-19.41.58:877][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.30-19.41.58:925][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.30-19.41.58:963][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.30-19.41.59:009][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.30-19.41.59:055][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.30-19.41.59:103][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.30-19.41.59:149][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.30-19.41.59:195][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.30-19.41.59:251][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.30-19.41.59:362][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.30-19.41.59:362][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.30-19.41.59:398][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.30-19.41.59:473][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.30-19.41.59:498][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.30-19.41.59:544][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.12.30-19.41.59:592][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.30-19.41.59:638][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.30-19.41.59:684][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.30-19.41.59:684][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.30-19.41.59:957][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.30-19.42.00:009][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/NslBr/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.12.30-19.42.00:010][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/NslBr/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2016.12.30-19.42.00:010][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.30-19.42.00:010][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.30-19.42.00:010][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.30-19.42.00:010][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.30-19.42.00:024][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.30-19.42.00:038][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NslBr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.30-19.42.00:215][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.30-19.42.00:218][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.30-19.42.00:391][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2016.12.30-19.42.00:428][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2016.12.30-19.42.00:468][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2016.12.30-19.42.00:468][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2016.12.30-19.42.00:468][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.30-19.42.00:987][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: enterthedoor, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3581165931
+[2016.12.30-19.42.01:034][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
+[2016.12.30-19.42.01:071][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.024607 seconds
+[2016.12.30-19.42.01:078][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2016.12.30-19.42.01:078][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2016.12.30-19.42.01:078][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.30-19.42.01:117][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.30-19.42.01:730][  0]LogSlate: Using Freetype 2.6.0
+[2016.12.30-19.42.01:731][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.30-19.42.01:731][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.30-19.42.02:651][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.12.30-19.42.02:699][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.30-19.42.03:157][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.12.30-19.42.03:571][  0]SourceControl: Info Source control is disabled
+[2016.12.30-19.42.03:642][  0]SourceControl: Info Source control is disabled
+[2016.12.30-19.42.03:709][  0]SourceControl: Info Source control is disabled
+[2016.12.30-19.42.03:772][  0]SourceControl: Info Source control is disabled
+[2016.12.30-19.42.05:256][  0]LogEngine: Initializing Engine...
+[2016.12.30-19.42.05:257][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.12.30-19.42.05:504][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.12.30-19.42.05:511][  0]LogInit: XAudio2 using 'S27D590-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.30-19.42.05:520][  0]LogInit: FAudioDevice initialized.
+[2016.12.30-19.42.05:569][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/NslBr/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.12.30-19.42.05:576][  0]LogInit: Texture streaming: Enabled
+[2016.12.30-19.42.05:740][  0]LogInit: Transaction tracking system initialized
+[2016.12.30-19.42.06:056][  0]BlueprintLog: New page: Editor Load
+[2016.12.30-19.42.06:897][  0]LocalizationService: Info Localization service is disabled
+[2016.12.30-19.42.07:493][  0]LogConsoleResponse:Display: 
+[2016.12.30-19.42.07:615][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.12.30-19.42.07:615][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.30-19.42.08:062][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/' took 0.01s
+[2016.12.30-19.42.08:503][  0]SourceControl: Info Source control is disabled
+[2016.12.30-19.42.08:505][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Unreal/Epic Games/4.14/FeaturePacks/StarterContent.upack)
+[2016.12.30-19.42.08:514][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.12.30-19.42.08:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.12.30-19.42.08:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.12.30-19.42.08:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.12.30-19.42.08:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.12.30-19.42.08:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.12.30-19.42.08:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.12.30-19.42.08:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.12.30-19.42.08:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.12.30-19.42.08:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.12.30-19.42.08:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.12.30-19.42.08:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.12.30-19.42.08:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.12.30-19.42.09:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.12.30-19.42.09:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.12.30-19.42.09:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.12.30-19.42.09:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.12.30-19.42.09:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.12.30-19.42.09:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Fire01.uasset"
+[2016.12.30-19.42.09:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.12.30-19.42.09:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.12.30-19.42.09:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.12.30-19.42.09:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Light01.uasset"
+[2016.12.30-19.42.09:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.12.30-19.42.09:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Light02.uasset"
+[2016.12.30-19.42.09:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.12.30-19.42.09:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.12.30-19.42.09:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.12.30-19.42.09:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.12.30-19.42.09:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.12.30-19.42.10:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.12.30-19.42.10:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.12.30-19.42.10:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.12.30-19.42.10:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.12.30-19.42.10:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Steam01.uasset"
+[2016.12.30-19.42.10:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.12.30-19.42.10:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.12.30-19.42.10:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.12.30-19.42.10:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.12.30-19.42.10:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.12.30-19.42.10:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.12.30-19.42.10:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.12.30-19.42.10:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.12.30-19.42.10:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.12.30-19.42.10:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.12.30-19.42.10:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.12.30-19.42.10:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.12.30-19.42.10:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.12.30-19.42.10:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.12.30-19.42.11:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.12.30-19.42.11:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.12.30-19.42.11:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.12.30-19.42.15:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.12.30-19.42.15:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.12.30-19.42.15:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.12.30-19.42.15:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Maps/StarterMap.umap"
+[2016.12.30-19.42.15:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.12.30-19.42.15:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.12.30-19.42.15:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.12.30-19.42.15:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.12.30-19.42.15:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.12.30-19.42.15:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.12.30-19.42.15:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.12.30-19.42.16:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.12.30-19.42.16:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.12.30-19.42.16:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.12.30-19.42.16:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.12.30-19.42.16:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.12.30-19.42.16:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.12.30-19.42.16:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.12.30-19.42.16:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.12.30-19.42.16:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.12.30-19.42.16:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.12.30-19.42.16:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.12.30-19.42.17:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.12.30-19.42.17:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.12.30-19.42.17:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.12.30-19.42.17:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.12.30-19.42.17:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.12.30-19.42.17:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.12.30-19.42.17:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.12.30-19.42.17:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.12.30-19.42.17:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.12.30-19.42.17:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.12.30-19.42.17:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.12.30-19.42.17:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.12.30-19.42.17:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.12.30-19.42.17:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.12.30-19.42.17:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.12.30-19.42.17:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.12.30-19.42.17:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.12.30-19.42.17:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.12.30-19.42.17:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.12.30-19.42.17:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.12.30-19.42.17:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.12.30-19.42.17:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.12.30-19.42.17:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.12.30-19.42.17:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.12.30-19.42.17:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.12.30-19.42.17:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.12.30-19.42.17:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.12.30-19.42.17:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.12.30-19.42.17:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.12.30-19.42.17:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.12.30-19.42.17:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.12.30-19.42.17:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.12.30-19.42.18:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.12.30-19.42.18:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.12.30-19.42.18:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.12.30-19.42.18:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.12.30-19.42.18:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.12.30-19.42.18:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.12.30-19.42.18:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.12.30-19.42.18:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.12.30-19.42.18:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.12.30-19.42.18:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.12.30-19.42.18:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.12.30-19.42.18:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.12.30-19.42.18:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.12.30-19.42.18:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.12.30-19.42.18:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_Door.uasset"
+[2016.12.30-19.42.18:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.12.30-19.42.18:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.12.30-19.42.18:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.12.30-19.42.18:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.12.30-19.42.18:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.12.30-19.42.18:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.12.30-19.42.18:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.12.30-19.42.18:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.12.30-19.42.18:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.12.30-19.42.18:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.12.30-19.42.18:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.12.30-19.42.18:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.12.30-19.42.18:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.12.30-19.42.18:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.12.30-19.42.18:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.12.30-19.42.19:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.12.30-19.42.19:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.12.30-19.42.19:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.12.30-19.42.19:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.12.30-19.42.19:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.12.30-19.42.19:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.12.30-19.42.19:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.12.30-19.42.19:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.12.30-19.42.19:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.12.30-19.42.19:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.12.30-19.42.19:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.12.30-19.42.19:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.12.30-19.42.19:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.12.30-19.42.19:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.12.30-19.42.19:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.12.30-19.42.19:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.12.30-19.42.19:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.12.30-19.42.19:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.12.30-19.42.19:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.12.30-19.42.20:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.12.30-19.42.20:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.12.30-19.42.20:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.12.30-19.42.20:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.12.30-19.42.20:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.12.30-19.42.20:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.12.30-19.42.20:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.12.30-19.42.20:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.12.30-19.42.20:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.12.30-19.42.20:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.12.30-19.42.21:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.12.30-19.42.22:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.12.30-19.42.22:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.12.30-19.42.22:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.12.30-19.42.22:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.12.30-19.42.22:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.12.30-19.42.23:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.12.30-19.42.23:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.12.30-19.42.23:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.12.30-19.42.23:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.12.30-19.42.25:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.12.30-19.42.27:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.12.30-19.42.27:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.12.30-19.42.27:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.12.30-19.42.27:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.12.30-19.42.27:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.12.30-19.42.27:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.12.30-19.42.27:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.12.30-19.42.27:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.12.30-19.42.27:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.12.30-19.42.27:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.12.30-19.42.27:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.12.30-19.42.27:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.12.30-19.42.27:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.12.30-19.42.27:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.12.30-19.42.27:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.12.30-19.42.27:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.12.30-19.42.27:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.12.30-19.42.27:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.12.30-19.42.27:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.12.30-19.42.29:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.12.30-19.42.31:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.12.30-19.42.31:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.12.30-19.42.31:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.12.30-19.42.31:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.12.30-19.42.31:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.12.30-19.42.31:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.12.30-19.42.31:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.12.30-19.42.31:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.12.30-19.42.31:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.12.30-19.42.31:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.12.30-19.42.31:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.12.30-19.42.31:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.12.30-19.42.31:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.12.30-19.42.31:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.12.30-19.42.31:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.12.30-19.42.32:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.12.30-19.42.32:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.12.30-19.42.32:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.12.30-19.42.32:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.12.30-19.42.32:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.12.30-19.42.32:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.12.30-19.42.32:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.12.30-19.42.32:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.12.30-19.42.32:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.12.30-19.42.32:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.12.30-19.42.34:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.12.30-19.42.34:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.12.30-19.42.35:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.12.30-19.42.35:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.12.30-19.42.35:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.12.30-19.42.35:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.12.30-19.42.35:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.12.30-19.42.35:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.12.30-19.42.35:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.12.30-19.42.35:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.12.30-19.42.36:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.12.30-19.42.37:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.12.30-19.42.38:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.12.30-19.42.38:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.12.30-19.42.38:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.12.30-19.42.38:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.12.30-19.42.38:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.12.30-19.42.39:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.12.30-19.42.39:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.12.30-19.42.39:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.12.30-19.42.39:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.12.30-19.42.39:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.12.30-19.42.39:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.12.30-19.42.39:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.12.30-19.42.39:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.12.30-19.42.39:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.12.30-19.42.39:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.12.30-19.42.39:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.12.30-19.42.39:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.12.30-19.42.39:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.12.30-19.42.39:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.12.30-19.42.39:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.12.30-19.42.39:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.12.30-19.42.39:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.12.30-19.42.39:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.12.30-19.42.39:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.12.30-19.42.39:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.12.30-19.42.39:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.12.30-19.42.41:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.12.30-19.42.41:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.12.30-19.42.42:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.12.30-19.42.42:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.12.30-19.42.43:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.12.30-19.42.43:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.12.30-19.42.43:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.12.30-19.42.43:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.12.30-19.42.43:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.12.30-19.42.45:462][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2016.12.30-19.42.46:975][  0]LogSavePackage: Save=402.42ms
+[2016.12.30-19.42.46:975][  0]LogSavePackage: Moving 'C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Saved/Floor_400x400DC24073A439884535B617790376A5789.tmp' to 'C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.12.30-19.42.47:076][  0]LogSavePackage:Display: Finished SavePackage C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.12.30-19.42.47:076][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.12.30-19.42.47:161][  0]Cmd: MAP LOAD FILE="C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.30-19.42.47:174][  0]LightingResults: New page: Lighting Build
+[2016.12.30-19.42.48:296][  0]MapCheck: New page: Map Check
+[2016.12.30-19.42.48:296][  0]LightingResults: New page: Lighting Build
+[2016.12.30-19.42.52:792][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.12.30-19.42.54:152][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2016.12.30-19.42.54:218][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.30-19.42.54:311][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.783ms to complete.
+[2016.12.30-19.42.54:311][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 7.171
+[2016.12.30-19.42.57:097][  0]LogCollectionManager: Loaded 0 collections in 0.001508 seconds
+[2016.12.30-19.42.57:529][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Saved/Collections/' took 0.01s
+[2016.12.30-19.42.57:529][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/Developers/NslBr/Collections/' took 0.01s
+[2016.12.30-19.42.57:529][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/Collections/' took 0.01s
+[2016.12.30-19.42.57:529][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.12.30-19.42.57:553][  0]LogContentBrowser: Native class hierarchy populated in 0.0217 seconds. Added 2190 classes and 428 folders.
+[2016.12.30-19.42.57:781][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.30-19.42.57:781][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.12.30-19.42.57:783][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
+[2016.12.30-19.42.57:894][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.12.30-19.42.59:251][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.12.30-19.42.59:460][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.12.30-19.43.00:910][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.30-19.43.01:112][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.30-19.43.01:606][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2016.12.30-19.43.01:607][  0]LogLoad: (Engine Initialization) Total time: 66.60 seconds
+[2016.12.30-19.43.01:607][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.73 seconds
+[2016.12.30-19.43.01:612][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.12.30-19.43.02:014][  0]LogOcInput: OculusInput pre-init called
+[2016.12.30-19.43.04:661][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.30-19.43.05:693][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:3).
+[2016.12.30-19.43.06:494][  2]LogAssetRegistry: Asset discovery search completed in 65.4818 seconds
+[2016.12.30-19.43.06:494][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.12.30-19.43.06:494][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2016.12.30-19.47.15:498][507]SourceControl: Info On branch master
+[2016.12.30-19.47.15:498][507]SourceControl: Info Changes not staged for commit:
+[2016.12.30-19.47.15:498][507]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2016.12.30-19.47.15:498][507]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	deleted:    Documents/Unreal Projects/Jeu1/Jeu1
+[2016.12.30-19.47.15:498][507]SourceControl: Info Untracked files:
+[2016.12.30-19.47.15:498][507]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.AndroidStudio2.1/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.AndroidStudio2.2/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.VirtualBox/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.android/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.atom/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.bash_history
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.eclipse/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.emulator_console_auth_token
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.gitconfig
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.gradle/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.idea/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.node_repl_history
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.nuget/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.oracle_jre_usage/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.p2/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.packettracer
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.sqlmap/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.ssh/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.sutmp
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.tooling/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	.vs/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	3D Objects/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	AndroidStudioProjects/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	AppData/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Bureau/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Cisco Packet Tracer 6.1sv/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Contacts/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Creative Cloud Files/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Desktop/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Deyzia.jar
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/ASUS/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Battlefield 1/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/CRYENGINE Projects/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Default.rdp
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Enregistrements audio/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Erasia.jpg
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/GameALive Media/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/IISExpress/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/League of Legends/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Mes fichiers paint.net/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/MumbleAutomaticCertificateBackup.p12
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/My Games/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/My Web Sites/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Notes/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/PROPCCleaner/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Planet Centauri/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Rockstar Games/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Scratch Projects/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/ShareX/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Stronghold Crusader/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/The Escapists/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Unreal Projects/EnterTheDoor/Config/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Unreal Projects/EnterTheDoor/Content/FirstPerson/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Unreal Projects/EnterTheDoor/Content/FirstPersonBP/Blueprints/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Unreal Projects/EnterTheDoor/Content/FirstPersonBP/Maps/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Unreal Projects/EnterTheDoor/Content/Geometry/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Unreal Projects/EnterTheDoor/Content/StarterContent/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Unreal Projects/EnterTheDoor/Intermediate/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Unreal Projects/EnterTheDoor/Saved/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/Visual Studio 2015/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/bg_menu.png
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/desktop.ini
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/gg.bat
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/lettre motivation baptiste.odt
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/ok.txt
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Documents/themes/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Downloads/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	ErasiaMessage.jar
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Favorites/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Intel/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Jeu1/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Links/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	Music/
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	NTUSER.DAT
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	NTUSER.DAT{03472a6c-a1ff-11e6-95fb-a283cfa62a10}.TxR.0.regtrans-ms
+[2016.12.30-19.47.15:498][507]SourceControl: Info 	NTUSER.DAT{03472a6c-a1ff-11e6-95fb-a283cfa62a10}.TxR.1.regtrans-ms
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	NTUSER.DAT{03472a6c-a1ff-11e6-95fb-a283cfa62a10}.TxR.2.regtrans-ms
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	NTUSER.DAT{03472a6c-a1ff-11e6-95fb-a283cfa62a10}.TxR.blf
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	NTUSER.DAT{03472a6d-a1ff-11e6-95fb-a283cfa62a10}.TM.blf
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	NTUSER.DAT{03472a6d-a1ff-11e6-95fb-a283cfa62a10}.TMContainer00000000000000000001.regtrans-ms
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	NTUSER.DAT{03472a6d-a1ff-11e6-95fb-a283cfa62a10}.TMContainer00000000000000000002.regtrans-ms
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	OneDrive/
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	Pictures/
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	Saved Games/
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	Searches/
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	Source/
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	T2Viewer270CD/
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	Tracing/
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	Videos/
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	VirtualBox VMs/
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	WorldPainter Backups/
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	configv2.conf
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	configv3.conf
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	node_modules/
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	ntuser.dat.LOG1
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	ntuser.dat.LOG2
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	ntuser.ini
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	php
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	sqlmap-dev/
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	symfony
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	workspace/
+[2016.12.30-19.47.15:499][507]SourceControl: Info 	worldpainter_64_2.2.6.exe
+[2016.12.30-19.47.15:499][507]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.12.30-19.47.18:383][773]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.30-19.47.19:210][774]Cmd: QUIT_EDITOR
+[2016.12.30-19.47.19:764][774]LogExit: Preparing to exit.
+[2016.12.30-19.47.22:329][774]LogExit: Editor shut down
+[2016.12.30-19.47.22:330][774]LogExit: Transaction tracking system shut down
+[2016.12.30-19.47.24:574][774]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.30-19.47.24:583][774]LogExit: Object subsystem successfully closed.
+[2016.12.30-19.47.24:721][774]LogD3D11RHI: Shutdown
+[2016.12.30-19.47.24:731][774]LogD3D11RHI: CleanupD3DDevice
+[2016.12.30-19.47.24:974][774]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.30-19.47.25:736][774]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.12.30-19.47.25:736][774]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1C1C5502-45FD-30E7-95AC-F2BE189BA3AD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.1-3224400%2B%2B%2BUE4%2BRelease-4.14&UserID=ab6b8b2241f6671bda8257bce069c2a5%7C14b7e37cb0f6444881a12f78f0b3d74e%7Caccece56-a7c5-4c27-b843-8ecc3dfaf751&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.12.30-19.47.25:814][774]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2016.12.30-19.47.25:818][774]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2016.12.30-19.47.25:818][774]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2016.12.30-19.47.25:828][774]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2016.12.30-19.47.25:828][774]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2016.12.30-19.47.25:847][774]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Epic Games/4.14/FeaturePacks/' was aborted.
+[2016.12.30-19.47.25:848][774]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2016.12.30-19.47.25:848][774]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2016.12.30-19.47.25:848][774]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2016.12.30-19.47.25:859][774]LogDirectoryWatcher: A directory notification for 'C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/Collections/' was aborted.
+[2016.12.30-19.47.25:859][774]LogDirectoryWatcher: A directory notification for 'C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/Developers/NslBr/Collections/' was aborted.
+[2016.12.30-19.47.25:859][774]LogDirectoryWatcher: A directory notification for 'C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Saved/Collections/' was aborted.
+[2016.12.30-19.47.25:859][774]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2016.12.30-19.47.25:865][774]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2016.12.30-19.47.25:871][774]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2016.12.30-19.47.25:911][774]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2016.12.30-19.47.25:911][774]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2016.12.30-19.47.25:911][774]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2016.12.30-19.47.25:911][774]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2016.12.30-19.47.25:911][774]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2016.12.30-19.47.25:978][774]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2016.12.30-19.47.25:986][774]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2016.12.30-19.47.26:051][774]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2016.12.30-19.47.26:079][774]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2016.12.30-19.47.26:092][774]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2016.12.30-19.47.26:101][774]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2016.12.30-19.47.26:124][774]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2016.12.30-19.47.26:124][774]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2016.12.30-19.47.26:124][774]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2016.12.30-19.47.26:124][774]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2016.12.30-19.47.26:124][774]LogModuleManager: Shutting down and abandoning module Media (215)
+[2016.12.30-19.47.26:124][774]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2016.12.30-19.47.26:124][774]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2016.12.30-19.47.26:124][774]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2016.12.30-19.47.26:124][774]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2016.12.30-19.47.26:160][774]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2016.12.30-19.47.26:160][774]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2016.12.30-19.47.26:160][774]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2016.12.30-19.47.26:160][774]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2016.12.30-19.47.26:160][774]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2016.12.30-19.47.26:160][774]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2016.12.30-19.47.26:185][774]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2016.12.30-19.47.26:248][774]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2016.12.30-19.47.26:263][774]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2016.12.30-19.47.26:263][774]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2016.12.30-19.47.26:282][774]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2016.12.30-19.47.26:282][774]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2016.12.30-19.47.26:306][774]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2016.12.30-19.47.26:311][774]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2016.12.30-19.47.26:311][774]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2016.12.30-19.47.26:311][774]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2016.12.30-19.47.26:319][774]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2016.12.30-19.47.26:336][774]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2016.12.30-19.47.26:343][774]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2016.12.30-19.47.26:349][774]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2016.12.30-19.47.26:362][774]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2016.12.30-19.47.26:362][774]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2016.12.30-19.47.26:367][774]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2016.12.30-19.47.26:377][774]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2016.12.30-19.47.26:377][774]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2016.12.30-19.47.26:385][774]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2016.12.30-19.47.26:392][774]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2016.12.30-19.47.26:392][774]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2016.12.30-19.47.26:426][774]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2016.12.30-19.47.26:457][774]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2016.12.30-19.47.26:457][774]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2016.12.30-19.47.26:457][774]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2016.12.30-19.47.26:457][774]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2016.12.30-19.47.26:536][774]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2016.12.30-19.47.26:632][774]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2016.12.30-19.47.26:705][774]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2016.12.30-19.47.26:740][774]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2016.12.30-19.47.26:774][774]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2016.12.30-19.47.26:869][774]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2016.12.30-19.47.26:904][774]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2016.12.30-19.47.26:992][774]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2016.12.30-19.47.27:030][774]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2016.12.30-19.47.27:030][774]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2016.12.30-19.47.27:062][774]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2016.12.30-19.47.27:125][774]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2016.12.30-19.47.27:125][774]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2016.12.30-19.47.27:189][774]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2016.12.30-19.47.27:267][774]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2016.12.30-19.47.27:435][774]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2016.12.30-19.47.27:468][774]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2016.12.30-19.47.27:497][774]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2016.12.30-19.47.27:526][774]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2016.12.30-19.47.27:595][774]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2016.12.30-19.47.27:618][774]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2016.12.30-19.47.27:631][774]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2016.12.30-19.47.27:631][774]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2016.12.30-19.47.27:631][774]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2016.12.30-19.47.27:631][774]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2016.12.30-19.47.27:631][774]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2016.12.30-19.47.27:631][774]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2016.12.30-19.47.27:631][774]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2016.12.30-19.47.27:631][774]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2016.12.30-19.47.27:676][774]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2016.12.30-19.47.27:705][774]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2016.12.30-19.47.27:705][774]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2016.12.30-19.47.27:890][774]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2016.12.30-19.47.27:941][774]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2016.12.30-19.47.27:941][774]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2016.12.30-19.47.27:941][774]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2016.12.30-19.47.27:941][774]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2016.12.30-19.47.27:965][774]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2016.12.30-19.47.27:994][774]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2016.12.30-19.47.27:994][774]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2016.12.30-19.47.27:994][774]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2016.12.30-19.47.27:994][774]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2016.12.30-19.47.27:994][774]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2016.12.30-19.47.28:028][774]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2016.12.30-19.47.28:028][774]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2016.12.30-19.47.28:176][774]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2016.12.30-19.47.28:177][774]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2016.12.30-19.47.28:177][774]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2016.12.30-19.47.28:177][774]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2016.12.30-19.47.28:197][774]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2016.12.30-19.47.28:205][774]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2016.12.30-19.47.28:205][774]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2016.12.30-19.47.28:205][774]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2016.12.30-19.47.28:205][774]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2016.12.30-19.47.28:238][774]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2016.12.30-19.47.28:277][774]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2016.12.30-19.47.28:282][774]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2016.12.30-19.47.28:282][774]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2016.12.30-19.47.28:293][774]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2016.12.30-19.47.28:293][774]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2016.12.30-19.47.28:303][774]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2016.12.30-19.47.28:315][774]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2016.12.30-19.47.28:315][774]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2016.12.30-19.47.28:315][774]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2016.12.30-19.47.28:315][774]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2016.12.30-19.47.28:349][774]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2016.12.30-19.47.28:349][774]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2016.12.30-19.47.28:349][774]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2016.12.30-19.47.28:360][774]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2016.12.30-19.47.28:369][774]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2016.12.30-19.47.28:369][774]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2016.12.30-19.47.28:391][774]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2016.12.30-19.47.28:392][774]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2016.12.30-19.47.28:536][774]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2016.12.30-19.47.28:638][774]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2016.12.30-19.47.28:765][774]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2016.12.30-19.47.28:765][774]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2016.12.30-19.47.28:784][774]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2016.12.30-19.47.28:815][774]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2016.12.30-19.47.28:826][774]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2016.12.30-19.47.28:826][774]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2016.12.30-19.47.28:861][774]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2016.12.30-19.47.28:861][774]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2016.12.30-19.47.28:861][774]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2016.12.30-19.47.28:861][774]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2016.12.30-19.47.28:967][774]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2016.12.30-19.47.29:013][774]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2016.12.30-19.47.29:079][774]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2016.12.30-19.47.29:188][774]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2016.12.30-19.47.29:188][774]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2016.12.30-19.47.29:188][774]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2016.12.30-19.47.29:317][774]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2016.12.30-19.47.29:445][774]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2016.12.30-19.47.29:470][774]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2016.12.30-19.47.29:487][774]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2016.12.30-19.47.29:487][774]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2016.12.30-19.47.29:493][774]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2016.12.30-19.47.29:493][774]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2016.12.30-19.47.29:493][774]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2016.12.30-19.47.29:493][774]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2016.12.30-19.47.29:493][774]LogModuleManager: Shutting down and abandoning module Core (75)
+[2016.12.30-19.47.29:493][774]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2016.12.30-19.47.29:493][774]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.12.30-19.47.29:493][774]LogDirectoryWatcher: A directory notification for 'C:/Users/NslBr/Documents/Unreal Projects/EnterTheDoor/Content/' was aborted.
+[2016.12.30-19.47.29:494][774]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.12.30-19.47.29:495][774]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2016.12.30-19.47.29:702][774]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2016.12.30-19.47.29:702][774]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2016.12.30-19.47.29:702][774]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2016.12.30-19.47.29:707][774]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2016.12.30-19.47.29:713][774]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2016.12.30-19.47.29:718][774]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2016.12.30-19.47.29:718][774]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2016.12.30-19.47.29:735][774]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2016.12.30-19.47.29:770][774]LogDerivedDataCache: Shutdown
+[2016.12.30-19.47.29:771][774]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2016.12.30-19.47.29:780][774]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2016.12.30-19.47.29:793][774]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2016.12.30-19.47.29:833][774]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2016.12.30-19.47.29:862][774]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2016.12.30-19.47.29:862][774]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2016.12.30-19.47.29:872][774]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2016.12.30-19.47.29:879][774]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2016.12.30-19.47.29:902][774]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2016.12.30-19.47.29:902][774]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2016.12.30-19.47.29:902][774]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2016.12.30-19.47.29:902][774]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2016.12.30-19.47.29:922][774]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2016.12.30-19.47.29:928][774]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2016.12.30-19.47.29:928][774]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2016.12.30-19.47.29:928][774]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2016.12.30-19.47.29:934][774]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2016.12.30-19.47.29:946][774]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2016.12.30-19.47.29:955][774]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2016.12.30-19.47.29:955][774]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2016.12.30-19.47.29:955][774]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2016.12.30-19.47.29:955][774]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2016.12.30-19.47.29:955][774]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2016.12.30-19.47.29:955][774]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2016.12.30-19.47.29:955][774]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2016.12.30-19.47.29:955][774]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2016.12.30-19.47.29:955][774]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2016.12.30-19.47.29:955][774]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2016.12.30-19.47.29:955][774]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2016.12.30-19.47.29:955][774]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2016.12.30-19.47.29:955][774]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2016.12.30-19.47.29:955][774]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2016.12.30-19.47.29:963][774]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2016.12.30-19.47.29:970][774]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2016.12.30-19.47.29:976][774]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2016.12.30-19.47.29:976][774]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2016.12.30-19.47.29:976][774]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2016.12.30-19.47.29:976][774]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2016.12.30-19.47.29:976][774]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.12.30-19.47.29:976][774]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.12.30-19.47.29:976][774]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.12.30-19.47.29:976][774]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.12.30-19.47.29:976][774]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.12.30-19.47.29:986][774]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2016.12.30-19.47.29:986][774]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2016.12.30-19.47.29:987][774]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.12.30-19.47.29:987][774]LogOnline:Display: Unloading online subsystem: NULL
+[2016.12.30-19.47.29:994][774]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2016.12.30-19.47.30:010][774]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.12.30-19.47.30:010][774]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.12.30-19.47.30:014][774]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.30-19.47.30:046][774]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.30-19.47.30:046][774]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.30-19.47.30:046][774]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.30-19.47.30:083][774]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.30-19.47.30:093][774]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.30-19.47.30:093][774]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.30-19.47.30:100][774]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.30-19.47.30:110][774]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.30-19.47.30:110][774]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.30-19.47.30:110][774]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.30-19.47.30:110][774]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.30-19.47.30:115][774]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.30-19.47.30:115][774]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.30-19.47.30:129][774]LogExit: Exiting.
+[2016.12.30-19.47.30:149][774]Log file closed, 12/30/16 20:47:30
